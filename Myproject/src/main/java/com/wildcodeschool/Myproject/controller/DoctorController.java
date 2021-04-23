@@ -8,19 +8,19 @@ public class DoctorController {
 
 	@GetMapping("/dctor/1")
 	@ResponseBody
-	public String index() {
+	public String docto1() {
 		return "William Hartnell";
-	}
-
-	@GetMapping("/dctor/13")
-	@ResponseBody
-	public String index() {
-		return "Jodie Whittaker";
 	}
 
 	@GetMapping("/dctor/10")
 	@ResponseBody
-	public String index() {
+	public String doctor10() {
+		return "Jodie Whittaker";
+	}
+
+	@GetMapping("/dctor/13")
+	@ResponseBody
+	public String doctor13() {
 		return "David Tennant";
 	}
 
